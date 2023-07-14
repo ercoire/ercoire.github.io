@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var apiRoot = 'https://replit.com/@ercoire/kasia-gierasimczuk-kodilla-tasks/v1/tasks';
+  var apiRoot = 'https://kasia-gierasimczuk-kodilla-tasks.ercoire.repl.co/v1/tasks';
   var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   var tasksContainer = $('[data-tasks-container]');
 
