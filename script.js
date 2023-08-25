@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 
   const apiRoot = 'https://kasia-gierasimczuk-kodilla-tasks.ercoire.repl.co/v1/tasks';
-  const trelloApiRoot = 'https://kasia-gierasimczuk-kodilla-tasks.ercoire.repl.co/trello';
+  const trelloApiRoot = 'https://kasia-gierasimczuk-kodilla-tasks.ercoire.repl.co/v1/trello';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
